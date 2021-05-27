@@ -3,6 +3,15 @@ Implementation of the Linear Regresion AI technique using Python. Testing by usi
 
 ## Linear Regresion
 
+Linear regression is a supervised machine learning algorithm that tries to fit the data you give it into a linear model. A linear model is a 
+model of N parameters and an optional bias that are used in conjunction with N x values. All those values are used to compute a variable, wich is the prediction. 
+Linear regresion tries to discover (or learn) the aforemention parameters by using gradient descend to minimize a cost funtion. In this case, we are using the 
+Mean Square Error.
+
+### Gradient Descend
+
+Gradient descend is a technique to minimize the cost function. It is achieved by updating the parameters until a reach a certain number of rounds (epochs) is finished , we get an acceptable error.
+
 ## Objectives
 
 This project has two objectives
